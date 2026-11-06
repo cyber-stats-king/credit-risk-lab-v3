@@ -1,0 +1,49 @@
+{
+    "model_type": "PD",
+    "models": [
+        {
+            "model_id": "logistic_regression_v001",
+            "model_type": "PD",
+            "model_name": "logistic_regression",
+            "version": 1,
+            "algorithm": "Logistic Regression",
+            "target": "default",
+            "features": [
+                "income",
+                "credit_score"
+            ],
+            "metrics": {
+                "accuracy": 0.85,
+                "roc_auc": 0.9
+            },
+            "training_date": "2026-11-02T15:46:31.558402+00:00",
+            "training_observations": 6,
+            "registered_at": "2026-11-02T15:46:31.558402+00:00",
+            "artifact_path": "D:\\credit_risk_lab_starter\\credit_risk_lab\\artifacts\\pd\\logistic_regression_v001.joblib",
+            "status": "REGISTERED",
+            "additional_metadata": {}
+        },
+        {
+            "model_id": "registry_test_v002_adbac37e",
+            "model_type": "PD",
+            "model_name": "registry_test",
+            "version": 2,
+            "algorithm": "Logistic Regression",
+            "target": "default",
+            "features": [
+                "test_feature"
+            ],
+            "metrics": {
+                "accuracy": 0.9
+            },
+            "training_date": "2026-11-02T16:09:08.653792+00:00",
+            "training_observations": 6,
+            "registered_at": "2026-11-02T16:09:08.653792+00:00",
+            "artifact_path": "pd\\registry_test_v002_adbac37e.joblib",
+            "status": "REGISTERED",
+            "additional_metadata": {}
+        }
+    ],
+    "active_model": "registry_test_v002_adbac37e",
+    "updated_at": "2026-11-02T16:09:08.654807+00:00"
+}
